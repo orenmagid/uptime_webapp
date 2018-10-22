@@ -8,6 +8,7 @@ class CreatePossibilities < ActiveRecord::Migration[5.2]
       t.integer :mental_intensity
       t.integer :fun_index
       t.integer :duration_in_minutes
+      t.string :necessary_location
       t.boolean :others_required
 
       t.timestamps

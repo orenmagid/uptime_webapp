@@ -33,6 +33,7 @@ ActiveRecord::Schema.define(version: 2018_10_22_185620) do
     t.integer "mental_intensity"
     t.integer "fun_index"
     t.integer "duration_in_minutes"
+    t.string "necessary_location"
     t.boolean "others_required"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
