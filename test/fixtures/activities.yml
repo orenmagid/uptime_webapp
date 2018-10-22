@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  status: MyString
+  user_id: 1
+  possibility_id: 1
+  rating: 1
+  exclude: false
+
+two:
+  status: MyString
+  user_id: 1
+  possibility_id: 1
+  rating: 1
+  exclude: false

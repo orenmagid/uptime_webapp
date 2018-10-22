@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyString
+  past_tense: MyString
+  physical_intensity: 1
+  mental_intensity: 1
+  fun_index: 1
+  duration_in_minutes: 1
+  others_required: false
+
+two:
+  name: MyString
+  description: MyString
+  past_tense: MyString
+  physical_intensity: 1
+  mental_intensity: 1
+  fun_index: 1
+  duration_in_minutes: 1
+  others_required: false
