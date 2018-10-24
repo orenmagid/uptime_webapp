@@ -50,6 +50,6 @@ class Api::V1::ActivitiesController < ApplicationController
   def activity_params
     params.require(:activity).permit(:id, :status, :user_id, :possibility_id, :rating, :exclude)
   end
-  end
+  
 
 end

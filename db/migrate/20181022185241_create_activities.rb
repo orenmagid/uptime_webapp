@@ -6,6 +6,7 @@ class CreateActivities < ActiveRecord::Migration[5.2]
       t.integer :possibility_id
       t.integer :rating
       t.boolean :exclude, default: false
+      t.integer :time_expired
 
       t.timestamps
     end
