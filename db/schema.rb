@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 2018_10_22_185620) do
     t.integer "possibility_id"
     t.integer "rating"
     t.boolean "exclude", default: false
+    t.integer "time_expired"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
