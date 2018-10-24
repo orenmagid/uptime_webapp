@@ -77,10 +77,10 @@ stretch = Possibility.create(name: "Stretch", description: "Get up and do some s
 
 
 #----------- Testing seed data do not remove
-activity_test_5 = Activity.create(status: "accepted", user_id: 1, possibility_id: 1, rating: 5)
+activity_test_5 = Activity.create(status: "Accepted", user_id: 1, possibility_id: 1, rating: 5)
 
-activity_test_2 = Activity.create(status: "accepted", user_id: 1, possibility_id: 1, rating: 3)
+activity_test_2 = Activity.create(status: "Accepted", user_id: 1, possibility_id: 1, rating: 3)
 
-activity_test_1 = Activity.create(status: "accepted", user_id: 1, possibility_id: 1, rating: 5)
-activity_test_4 = Activity.create(status: "accepted", user_id: 1, possibility_id: 1, rating: 2)
-activity_test_3 = Activity.create(status: "accepted", user_id: 1, possibility_id: 1, rating: 1)
+activity_test_1 = Activity.create(status: "Accepted", user_id: 1, possibility_id: 1, rating: 5)
+activity_test_4 = Activity.create(status: "Accepted", user_id: 1, possibility_id: 1, rating: 2)
+activity_test_3 = Activity.create(status: "Accepted", user_id: 1, possibility_id: 1, rating: 1)
