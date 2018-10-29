@@ -6,13 +6,24 @@ class Api::V1::PossibilitiesController < ApplicationController
 
     @random_possibility = Possibility.get_random_possibility(limit_place, timeLimit, @current_user)
     render json: @random_possibility
-
   end
 
   def index
     @possibilities = Possibility.all
     render json: @possibilities
+  end
 
+  def get_possibility_rating
+    all_associated_activities_array = Activity.where(possibility_id: params[:id])
+
+    all_associated_rated_activities_array = all_associated_activities_array.select {|activity| activity.rating != nil}
+
+    if all_associated_rated_activities_array.length != 0
+      @avg_rating = (all_associated_rated_activities_array.reduce(0) {|sum, n| sum + n.rating } / all_associated_rated_activities_array.length).to_float
+    else
+      @avg_rating = null
+    end
+    render json: @avg_rating
   end
 
 end

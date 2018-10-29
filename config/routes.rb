@@ -4,6 +4,7 @@ Rails.application.routes.draw do
       post '/login', to: 'auth#login'
       get '/user', to: 'users#show_user'
       post '/suggestpossibility', to: 'possibilities#suggest_possibility'
+      get '/possibilityaverage/:id', to: 'possibilities#get_possibility_rating'
       resources :users
       resources :possibilities
       resources :activities
