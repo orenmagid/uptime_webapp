@@ -26,4 +26,8 @@ class Api::V1::PossibilitiesController < ApplicationController
     render json: @avg_rating
   end
 
+  def get_user_statistics
+
+  end
+
 end

@@ -30,7 +30,7 @@ oren = User.create(first_name: "Oren", last_name: "Magid", username: "oren", pas
 
 
 
-read = Possibility.create(name: "Read", description: "Grab a nearby book, or open up your Kindle, and enjoy a little reading.", past_tense: "read", physical_intensity: 1, mental_intensity: 3, fun_index: 3)
+read = Possibility.create(name: "Read", description: "Grab a nearby book, or turn your Kindle, and enjoy a little reading.", past_tense: "read", physical_intensity: 1, mental_intensity: 3, fun_index: 3)
 
 take_a_walk = Possibility.create(name: "Take a Walk", description: "Take a stroll—-perhaps on a path you've never taken before.", past_tense: "took a walk", physical_intensity: 3, mental_intensity: 1, fun_index: 3)
 
